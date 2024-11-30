@@ -1,0 +1,94 @@
+@charset "utf-8";
+body {
+    background-color: #FFFFFF;
+	width: 1000px;
+    }
+header {
+	displa: flex;
+    height: 120px;
+    width: 810px;
+	background-color: #FF842B;
+}
+
+
+nav {
+    height: 30px;
+    width: 810px;
+    background-color: #FF3535;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+h1 {
+    height: 30px;
+    width: 300px;
+    color: #000000;
+    display: block;
+    float: none;
+    font-size: 2em;
+    font-family: YuGothic;
+    margin-top: 0em;
+    margin-inline-start: 20px;
+    font-weight: bold;
+}
+h2 {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+  	margin-left: 1em;
+}
+
+.big_box{
+    height: 550px;
+    width: 810px;
+}
+main{
+    height: auto;
+    width: 810px;
+    background-color: #FF842B;
+    float: left;
+}
+
+
+article {
+    height: 380px;
+    width: 610px;
+    background-color: #FFAE75;
+    margin-top: 1em;
+    margin-left: 10px;
+}
+article p {
+    font-family:  "Yu Mincho";
+}
+section {
+    height: 300px;
+    width: 190px;
+    background-color: #EAF9B5;
+    margin-inline-start: 10px;
+	margin-left: 1%;
+    float: left;
+}
+section p {
+	margin-left: 3%;
+}
+
+aside {
+    height: 100px;
+    width: 160px;
+    background-color: #8083DA;
+    margin-top: 2em;
+    margin-left: 0.6em;
+}
+footer {
+    height: 70px;
+    width: 810px;
+    background-color: #FFD09E;
+    float: left;
+}
